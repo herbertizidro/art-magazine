@@ -17,11 +17,6 @@ html, body {
     flex-direction: column;
 }
 
-.wrapper{
-    display: flex;
-    flex-direction: column;
-}
-
 /* ESTILOS GERAIS */
 
 .btn{

@@ -17,6 +17,10 @@ html, body {
     flex-direction: column;
 }
 
+.content{
+    flex-grow: 1;
+}
+
 /* ESTILOS GERAIS */
 
 .btn{

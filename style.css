@@ -1,4 +1,4 @@
-/* ESTRUTURA */
+/* ESTRUTURA - FLEX*/
 
 html, body {
     margin: 0;
@@ -18,8 +18,25 @@ html, body {
 }
 
 .content{
-    flex-grow: 1;
+	flex-grow: 1;
 }
+
+footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+	text-align: center;
+    background: #F7F7F7;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.form-control{width: 200px !important;}
 
 /* ESTILOS GERAIS */
 
@@ -33,11 +50,14 @@ html, body {
 a{
     text-decoration: none !important;
     cursor: pointer;
-    opacity: 0.9;
     color: #0f1014 !important;
 }
 
-a:hover{
+.menu-desktop li a, .menu-mobile li a, footer a{
+   opacity: 0.9; 
+}
+
+.menu-desktop li a:hover, .menu-mobile li a:hover, footer a:hover{
    opacity: 1; 
 }
 
@@ -48,7 +68,7 @@ li{
 
 html{scroll-behavior: smooth;}
 
-/* HEADER */
+/* HEADER - FLEX*/
 
 .logo{
     display: flex;
@@ -80,7 +100,7 @@ html{scroll-behavior: smooth;}
         padding: 5px;
     }
     
-    .menu-mobile li{
+    .menu-mobile{
         padding: 5px;
     }
     
@@ -99,7 +119,7 @@ html{scroll-behavior: smooth;}
     
 }
 
-/* CONTENT */
+/* CONTENT - EDITORIALS(INDEX) - FLEX */
 
 .img-area{
     display: flex;
@@ -112,6 +132,10 @@ html{scroll-behavior: smooth;}
 
 .figure-box{
     padding: 10px;
+}
+
+.figure-box img{
+    opacity: 1 !important;
 }
 
 .figure-box figcaption{
@@ -129,26 +153,4 @@ html{scroll-behavior: smooth;}
 .figure-box figcaption p{
     font-size: 11px;
     margin: 10px;
-}
-
-.img-area img:hover{
-    opacity: .5;
-    transition: .9s;
-}
-
-.form-control{width: 200px !important;}
-
-footer{
-    bottom: 0;
-    left: 0;
-    width: 100%;
-	text-align: center;
-    background: #F7F7F7;
-}
-
-.footer-info{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
 }

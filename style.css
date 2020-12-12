@@ -119,6 +119,10 @@ html{scroll-behavior: smooth;}
     
 }
 
+.active{
+    border-bottom: 1px solid #0f1014;
+}
+
 /* CONTENT - EDITORIALS(INDEX) - FLEX */
 
 .img-area{
@@ -152,5 +156,22 @@ html{scroll-behavior: smooth;}
 
 .figure-box figcaption p{
     font-size: 11px;
+    margin: 10px;
+}
+
+/* CONTENT - INTERVIEWS - FLEX */
+
+.interviews{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.interview-box{
     margin: 10px;
 }

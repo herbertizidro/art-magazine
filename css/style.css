@@ -229,6 +229,6 @@ html{scroll-behavior: smooth;}
     max-width: 320px;
 }
 
-@media(max-width: 1164px){
+@media(max-width: 1200px){
     .others{display: none;}
 }

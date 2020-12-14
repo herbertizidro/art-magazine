@@ -72,7 +72,7 @@ html{scroll-behavior: smooth;}
 
 .logo{
     display: flex;
-    justify-content: center; /* logo numa ponta e menu na outra ponta */
+    justify-content: center; /* logo centralizado */
     margin: 15px auto;
 }
 

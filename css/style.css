@@ -232,3 +232,8 @@ html{scroll-behavior: smooth;}
 @media(max-width: 1200px){
     .others{display: none;}
 }
+
+.ads{
+    background: #FDFDFD;
+    margin: 10px;
+}

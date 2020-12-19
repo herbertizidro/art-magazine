@@ -237,3 +237,7 @@ html{scroll-behavior: smooth;}
     background: #FDFDFD;
     margin: 10px;
 }
+
+.btn-outline-dark:hover{
+    background: #1b1b1b !important; 
+}

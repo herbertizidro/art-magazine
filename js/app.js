@@ -12,7 +12,7 @@ $(document).ready(function(){ /* espera a página carregar */
         $(this).addClass("active");
     })
     
-    /* função que chama o modal assim que a index é carregada */
+    /* função que chama o modal */
     function callModal(){
         $(".modal").modal({
             fadeDuration: 500,
@@ -20,6 +20,28 @@ $(document).ready(function(){ /* espera a página carregar */
         })
     }
     
-    callModal();
+    $(".art-page").click(function(e){
+        callModal();
+    })
+    
+    $(".writing-page").click(function(e){
+        callModal();
+    })
+    
+    $(".fashion-page").click(function(e){
+        callModal();
+    })
+    
+    $(".video-page").click(function(e){
+        callModal();
+    })
+    
+    $(".magazine-page").click(function(e){
+        callModal();
+    })
+    
+    $(".submit-page").click(function(e){
+        callModal();
+    })
 
 })

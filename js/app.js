@@ -22,4 +22,4 @@ $(document).ready(function(){ /* espera a página carregar */
     
     callModal();
 
-});
+})

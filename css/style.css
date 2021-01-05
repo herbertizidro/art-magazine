@@ -246,6 +246,11 @@ html{scroll-behavior: smooth;}
 
 /* CONTENT - LOREM IPSUM(ENSAIO) - FLEX */
 
+.title h3{
+    font-family: 'Playfair Display', serif;
+    text-transform: none;
+}
+
 .description-box h4{
     font-family: 'Playfair Display', serif;
     text-transform: none;

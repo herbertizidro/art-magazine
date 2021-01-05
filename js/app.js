@@ -52,7 +52,7 @@ $(document).ready(function(){ /* espera a página carregar */
         var scroll_value = $(window).scrollTop() /* distância percorrida pelo scroll */
         var windowHeight = $(window).height() * 3/4;
         $(".anime").each(function(){
-            var itemTop = $(this).offset().top; /* distancia entre o item "description-box" e o topo */
+            var itemTop = $(this).offset().top; /* distancia entre o item "anime" e o topo */
             if(scroll_value > itemTop - windowHeight){
                 $(this).addClass("animate");
             }
@@ -64,6 +64,6 @@ $(document).ready(function(){ /* espera a página carregar */
         animeScroll();
     });
 
-    animeScroll();
+    animeScroll(); /* pra que o primeiro elemento que fica mais próximo do topo da página seja animado assim que a página carregar */
     
 });

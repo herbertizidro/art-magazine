@@ -261,10 +261,6 @@ html{scroll-behavior: smooth;}
     border: 5px solid #1b1b1b;
 }
 
-figure-box img{
-    border-bottom-right-radius: 80px 80px;
-}
-
 .img-area-editorial{
     display: flex;
     flex-wrap: wrap;

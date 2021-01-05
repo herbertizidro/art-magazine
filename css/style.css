@@ -283,13 +283,11 @@ figure-box img{
     
     .anime{
         opacity: 0;
-        transform: translate3d(-50px, 0, 0); /* da esquerda pra direita */
         transition: .5s;
     }
     
     .animate{
         opacity: 1;
-        transform: translate3d(0, 0, 0);
     }
 }
 

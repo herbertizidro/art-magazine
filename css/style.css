@@ -243,3 +243,47 @@ html{scroll-behavior: smooth;}
     background: #FDFDFD;
     margin: 10px;
 }
+
+/* CONTENT - LOREM IPSUM(ENSAIO) - FLEX */
+
+.description-box h4{
+    font-family: 'Playfair Display', serif;
+    text-transform: none;
+    min-width: 200px;
+    max-width: 350px;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #1b1b1b;
+}
+
+figure-box img{
+    border-bottom-right-radius: 80px 80px;
+}
+
+.img-area-editorial{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+@media(max-width: 900px){
+    .img-area-editorial :nth-child(3) { order: 4;} /* mudar a ordem dos elementos "filhos" de "img-area-editorial" */
+    .img-area-editorial :nth-child(4) { order: 3;} /* mudar a ordem dos elementos "filhos" de "img-area-editorial" */
+    .description-box{text-align: center;}   
+}
+
+/* EFEITO SCROLL */
+
+.anime{
+    opacity: 0;
+    transform: translate3d(0, -50px, 0); /* de cima pra baixo */
+    transition: .5s;
+}
+        
+.animate{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}

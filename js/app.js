@@ -20,6 +20,7 @@ $(document).ready(function(){ /* espera a página carregar */
         })
     }
     
+    /* modal ativado em cada link da navbar abaixo */
     $(".art-page").click(function(e){
         callModal();
     })
@@ -43,5 +44,26 @@ $(document).ready(function(){ /* espera a página carregar */
     $(".submit-page").click(function(e){
         callModal();
     })
+    
+    
+    /* efeito scroll da página "lorem-ipsum" */
+    function animeScroll(){
+        
+        var scroll_value = $(window).scrollTop() /* distância percorrida pelo scroll */
+        var windowHeight = $(window).height() * 3/4;
+        $(".anime").each(function(){
+            var itemTop = $(this).offset().top; /* distancia entre o item "description-box" e o topo */
+            if(scroll_value > itemTop - windowHeight){
+                $(this).addClass("animate");
+            }
+        }); 
+        
+    }
+    
+    $(document).scroll(function() {
+        animeScroll();
+    });
 
-})
+    animeScroll();
+    
+});

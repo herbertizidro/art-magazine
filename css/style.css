@@ -270,7 +270,7 @@ html{scroll-behavior: smooth;}
     margin-top: 20px;
 }
 
-@media(max-width: 900px){
+@media(max-width: 991px){
     .img-area-editorial :nth-child(3) { order: 4;} /* mudar a ordem dos elementos "filhos" de "img-area-editorial" */
     .img-area-editorial :nth-child(4) { order: 3;} /* mudar a ordem dos elementos "filhos" de "img-area-editorial" */
     .description-box{text-align: center;}

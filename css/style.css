@@ -289,7 +289,7 @@ html{scroll-behavior: smooth;}
 
 /* EFEITO SCROLL */
 
-@media(min-width: 901px){
+@media(min-width: 991px){
 
     .anime{
         opacity: 0;

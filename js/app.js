@@ -50,7 +50,7 @@ $(document).ready(function(){ /* espera a página carregar */
     function animeScroll(){
         
         var scroll_value = $(window).scrollTop() /* distância percorrida pelo scroll */
-        var windowHeight = $(window).height() * 3/4;
+        var windowHeight = $(window).height() * 3/4; /* divide a página */
         $(".anime").each(function(){
             var itemTop = $(this).offset().top; /* distancia entre o item "anime" e o topo */
             if(scroll_value > itemTop - windowHeight){

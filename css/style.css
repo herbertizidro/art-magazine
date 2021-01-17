@@ -268,6 +268,13 @@ html{scroll-behavior: smooth;}
     align-items: center;
     justify-content: space-around;
     margin-top: 20px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.img-area-editorial img{
+    padding: 10px; /* este padding aliado a classe "shadow" do bootstrap que dá forma à borda branca das imagens */
+    margin: 10px;
 }
 
 @media(max-width: 991px){

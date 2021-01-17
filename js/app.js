@@ -50,9 +50,9 @@ $(document).ready(function(){ /* espera a página carregar */
     function animeScroll(){
         
         var scroll_value = $(window).scrollTop() /* distância percorrida pelo scroll */
-        var windowHeight = $(window).height() * 3/4; /* divide a página */
+        var windowHeight = $(window).height() * 3/4;
         $(".anime").each(function(){
-            var itemTop = $(this).offset().top; /* distancia entre o item "anime" e o topo */
+            var itemTop = $(this).offset().top; /* distancia entre o item "description-box" e o topo */
             if(scroll_value > itemTop - windowHeight){
                 $(this).addClass("animate");
             }
@@ -64,6 +64,21 @@ $(document).ready(function(){ /* espera a página carregar */
         animeScroll();
     });
 
-    animeScroll(); /* pra que o primeiro elemento que fica mais próximo do topo da página seja animado assim que a página carregar */
+    animeScroll();
+    
+    /* efeito máquina de escrever do título(h3) da página "lorem ipsum" */
+    function typeWrite(e) {
+        const textoArray = e.innerHTML.split('');
+        e.innerHTML = ' ';
+        textoArray.forEach(function (letter, i) {
+            setTimeout(function () {
+                e.innerHTML += letter;
+            }, 80 * i);
+        });
+    }
+
+    const phrase = document.querySelector('.title h3');
+
+    typeWrite(phrase);
     
 });

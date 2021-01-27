@@ -64,7 +64,7 @@ $(document).ready(function(){ /* espera a página carregar */
         animeScroll();
     });
 
-    animeScroll();
+    //animeScroll();
     
     /* efeito máquina de escrever do título(h3) da página "lorem ipsum" */
     function typeWrite(e) {

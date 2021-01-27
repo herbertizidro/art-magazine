@@ -314,6 +314,11 @@ html{scroll-behavior: smooth;}
 /* EFEITO SCROLL */
 
 @media(min-width: 992px){
+	
+    .first-description{
+        opacity: 1 !important;
+        transform: translate3d(0, 0px, 0) !important; /* sem efeito */
+    }
 
     .anime{
         opacity: 0;

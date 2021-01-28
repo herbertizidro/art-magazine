@@ -331,3 +331,7 @@ html{scroll-behavior: smooth;}
         transform: translate3d(0, 0, 0);
     }
 }
+
+.hr-h4bottom{
+  margin-top: 4px; 
+}

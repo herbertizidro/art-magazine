@@ -21,27 +21,7 @@ $(document).ready(function(){ /* espera a página carregar */
     }
     
     /* modal ativado em cada link da navbar abaixo */
-    $(".art-page").click(function(e){
-        callModal();
-    })
-    
-    $(".writing-page").click(function(e){
-        callModal();
-    })
-    
-    $(".fashion-page").click(function(e){
-        callModal();
-    })
-    
-    $(".video-page").click(function(e){
-        callModal();
-    })
-    
-    $(".magazine-page").click(function(e){
-        callModal();
-    })
-    
-    $(".submit-page").click(function(e){
+    $(".art-page, .writing-page, .fashion-page, .video-page, .magazine-page, .submit-page").click(function(e){
         callModal();
     })
     
@@ -63,8 +43,6 @@ $(document).ready(function(){ /* espera a página carregar */
     $(document).scroll(function() {
         animeScroll();
     });
-
-    //animeScroll();
     
     /* efeito máquina de escrever do título(h3) da página "lorem ipsum" */
     function typeWrite(e) {

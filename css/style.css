@@ -139,7 +139,7 @@ html{scroll-behavior: smooth;}
 }
 
 .figure-box{
-    padding: 10px;
+    padding: 5px;
 }
 
 .figure-box img{
@@ -240,7 +240,7 @@ html{scroll-behavior: smooth;}
     text-transform: none;
     min-width: 200px;
     max-width: 400px;
-    margin: 20px;
+    margin: 25px;
     padding: 10px;
 }
 

@@ -262,7 +262,6 @@ html{scroll-behavior: smooth;}
 
 .img-area-editorial img{
     padding: 10px; /* este padding aliado a classe "shadow" do bootstrap que dá forma à borda branca das imagens */
-    margin: 10px;
 }
 
 @media(max-width: 991px){
